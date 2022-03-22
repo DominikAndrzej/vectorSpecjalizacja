@@ -1,0 +1,3 @@
+C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug/CMakeFiles/vectorSpecjalizacja.dir
+C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug/CMakeFiles/rebuild_cache.dir
