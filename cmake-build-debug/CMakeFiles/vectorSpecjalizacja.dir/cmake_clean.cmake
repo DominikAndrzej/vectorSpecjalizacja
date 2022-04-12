@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/vectorSpecjalizacja.dir/MyVector.cpp.obj"
   "CMakeFiles/vectorSpecjalizacja.dir/main.cpp.obj"
   "vectorSpecjalizacja.exe"
   "vectorSpecjalizacja.exe.manifest"

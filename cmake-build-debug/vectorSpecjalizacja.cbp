@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vectorSpecjalizacja">
-				<Option output="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option output="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -34,15 +34,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 vectorSpecjalizacja"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 vectorSpecjalizacja"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vectorSpecjalizacja/fast">
-				<Option output="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option output="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -57,37 +57,43 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 vectorSpecjalizacja/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 vectorSpecjalizacja/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/main.cpp">
+		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/MyVector.cpp">
 			<Option target="vectorSpecjalizacja"/>
 		</Unit>
-		<Unit filename="C:/Users/dominikssj2/CLionProjects/vectorSpecjalizacja/CMakeLists.txt">
+		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/MyVector.h">
+			<Option target="vectorSpecjalizacja"/>
+		</Unit>
+		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/main.cpp">
+			<Option target="vectorSpecjalizacja"/>
+		</Unit>
+		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

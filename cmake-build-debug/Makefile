@@ -52,10 +52,10 @@ RM = "F:\Programsy\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja
+CMAKE_SOURCE_DIR = C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\CMakeFiles C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\CMakeFiles C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,33 @@ vectorSpecjalizacja\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorSpecjalizacja.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\vectorSpecjalizacja.dir\build
 .PHONY : vectorSpecjalizacja\fast
 
+MyVector.obj: MyVector.cpp.obj
+
+.PHONY : MyVector.obj
+
+# target to build an object file
+MyVector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorSpecjalizacja.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.obj
+.PHONY : MyVector.cpp.obj
+
+MyVector.i: MyVector.cpp.i
+
+.PHONY : MyVector.i
+
+# target to preprocess a source file
+MyVector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorSpecjalizacja.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.i
+.PHONY : MyVector.cpp.i
+
+MyVector.s: MyVector.cpp.s
+
+.PHONY : MyVector.s
+
+# target to generate assembly for a file
+MyVector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectorSpecjalizacja.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.s
+.PHONY : MyVector.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... vectorSpecjalizacja
+	@echo ... MyVector.obj
+	@echo ... MyVector.i
+	@echo ... MyVector.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

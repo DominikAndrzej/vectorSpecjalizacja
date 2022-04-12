@@ -47,10 +47,10 @@ RM = "F:\Programsy\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja
+CMAKE_SOURCE_DIR = C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\vectorSpecjalizacja.dir\depend.make
@@ -63,36 +63,57 @@ include CMakeFiles\vectorSpecjalizacja.dir\flags.make
 
 CMakeFiles\vectorSpecjalizacja.dir\main.cpp.obj: CMakeFiles\vectorSpecjalizacja.dir\flags.make
 CMakeFiles\vectorSpecjalizacja.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vectorSpecjalizacja.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vectorSpecjalizacja.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2017\PROFES~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\vectorSpecjalizacja.dir\main.cpp.obj /FdCMakeFiles\vectorSpecjalizacja.dir\ /FS -c C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\vectorSpecjalizacja.dir\main.cpp.obj /FdCMakeFiles\vectorSpecjalizacja.dir\ /FS -c C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\main.cpp
 <<
 
 CMakeFiles\vectorSpecjalizacja.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vectorSpecjalizacja.dir/main.cpp.i"
 	C:\PROGRA~2\MICROS~2\2017\PROFES~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\vectorSpecjalizacja.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\main.cpp
 <<
 
 CMakeFiles\vectorSpecjalizacja.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vectorSpecjalizacja.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~2\2017\PROFES~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\vectorSpecjalizacja.dir\main.cpp.s /c C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\vectorSpecjalizacja.dir\main.cpp.s /c C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\main.cpp
+<<
+
+CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.obj: CMakeFiles\vectorSpecjalizacja.dir\flags.make
+CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.obj: ..\MyVector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vectorSpecjalizacja.dir/MyVector.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\PROFES~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.obj /FdCMakeFiles\vectorSpecjalizacja.dir\ /FS -c C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\MyVector.cpp
+<<
+
+CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vectorSpecjalizacja.dir/MyVector.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\PROFES~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\MyVector.cpp
+<<
+
+CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vectorSpecjalizacja.dir/MyVector.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\PROFES~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.s /c C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\MyVector.cpp
 <<
 
 # Object files for target vectorSpecjalizacja
 vectorSpecjalizacja_OBJECTS = \
-"CMakeFiles\vectorSpecjalizacja.dir\main.cpp.obj"
+"CMakeFiles\vectorSpecjalizacja.dir\main.cpp.obj" \
+"CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.obj"
 
 # External object files for target vectorSpecjalizacja
 vectorSpecjalizacja_EXTERNAL_OBJECTS =
 
 vectorSpecjalizacja.exe: CMakeFiles\vectorSpecjalizacja.dir\main.cpp.obj
+vectorSpecjalizacja.exe: CMakeFiles\vectorSpecjalizacja.dir\MyVector.cpp.obj
 vectorSpecjalizacja.exe: CMakeFiles\vectorSpecjalizacja.dir\build.make
 vectorSpecjalizacja.exe: CMakeFiles\vectorSpecjalizacja.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable vectorSpecjalizacja.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vectorSpecjalizacja.exe"
 	"F:\Programsy\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\vectorSpecjalizacja.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2017\PROFES~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\vectorSpecjalizacja.dir\objects1.rsp @<<
- /out:vectorSpecjalizacja.exe /implib:vectorSpecjalizacja.lib /pdb:C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\vectorSpecjalizacja.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:vectorSpecjalizacja.exe /implib:vectorSpecjalizacja.lib /pdb:C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\vectorSpecjalizacja.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -105,6 +126,6 @@ CMakeFiles\vectorSpecjalizacja.dir\clean:
 .PHONY : CMakeFiles\vectorSpecjalizacja.dir\clean
 
 CMakeFiles\vectorSpecjalizacja.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug C:\Users\dominikssj2\CLionProjects\vectorSpecjalizacja\cmake-build-debug\CMakeFiles\vectorSpecjalizacja.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\CMakeFiles\vectorSpecjalizacja.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\vectorSpecjalizacja.dir\depend
 
