@@ -4,96 +4,92 @@
 	<Project>
 		<Option title="vectorSpecjalizacja"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vectorSpecjalizacja">
-				<Option output="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option output="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 vectorSpecjalizacja"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 vectorSpecjalizacja"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="vectorSpecjalizacja/fast">
-				<Option output="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option output="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/vectorSpecjalizacja.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="msvc8"/>
+				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 vectorSpecjalizacja/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 vectorSpecjalizacja/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\DominikSsj2\Desktop\vectorSpecjalizacja\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/MyVector.cpp">
+		<Unit filename="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/MyVector.cpp">
 			<Option target="vectorSpecjalizacja"/>
 		</Unit>
-		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/MyVector.h">
+		<Unit filename="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/MyVector.h">
 			<Option target="vectorSpecjalizacja"/>
 		</Unit>
-		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/main.cpp">
+		<Unit filename="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/main.cpp">
 			<Option target="vectorSpecjalizacja"/>
 		</Unit>
-		<Unit filename="C:/Users/DominikSsj2/Desktop/vectorSpecjalizacja/CMakeLists.txt">
+		<Unit filename="C:/Users/Sznycel/CLionProjects/vectorSpecjalizacja/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

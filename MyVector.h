@@ -8,8 +8,11 @@
 
 class MyVector {
 private:
-    unsigned int size;
+    unsigned int size = 0;
+    unsigned int capacity = 5;
     int *array;
+
+    void reallocate();
 public:
     MyVector();
 
@@ -17,9 +20,17 @@ public:
 
     ~MyVector();
 
-    void addElement(int newElement);
+    void push_back(int newElement);
 
-    void listElements();
+    void pop_back();
+
+    void list_elements();
+
+    int get_element(int index);
+
+    void insert_element(int index, int newElement);
+
+    void delete_element(int index);
 };
 
 

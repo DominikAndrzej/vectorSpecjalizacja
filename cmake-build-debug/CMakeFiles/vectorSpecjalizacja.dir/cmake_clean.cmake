@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vectorSpecjalizacja.dir/MyVector.cpp.obj"
   "CMakeFiles/vectorSpecjalizacja.dir/main.cpp.obj"
+  "libvectorSpecjalizacja.dll.a"
   "vectorSpecjalizacja.exe"
   "vectorSpecjalizacja.exe.manifest"
-  "vectorSpecjalizacja.lib"
   "vectorSpecjalizacja.pdb"
 )
 
